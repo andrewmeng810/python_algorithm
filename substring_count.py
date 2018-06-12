@@ -13,13 +13,14 @@
 # solution 1:
 # while statement:
 #
-def substring_count(string, substring):
-    start, end, counter, s_len = 0, 0 , 0, len(substring)
+def count_substring(string, substring):
+    start, end, s_len, counter = 0,  len(substring), len(substring), 0
     while end <= len(string):
         if substring == string[start: end]:
             counter += 1
         start += 1
         end = start + s_len
+
     return counter
 
 

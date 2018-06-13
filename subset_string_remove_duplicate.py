@@ -2,7 +2,6 @@
 
 
 # For this function, we are subsetting strings (S) based on desired length (k).
-
 # Given S and k, print n/k lines where each line i which unique stringsself.
 
 # Sample input:
